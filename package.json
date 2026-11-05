@@ -1,0 +1,11 @@
+{
+  "name": "uyghur-rtl-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive Uyghur RTL examples, Unicode inspection, and reusable test fixtures.",
+  "license": "MIT",
+  "repository": "https://github.com/UyghurCommunity/uyghur-rtl-lab.git",
+  "scripts": { "test": "node --test", "check": "node --check app.js && node --check fixtures.js && node --check unicode.js" },
+  "engines": { "node": ">=18" }
+}
