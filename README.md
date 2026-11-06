@@ -79,7 +79,7 @@ Node tests cover Unicode isolation, code-point/UTF-16 offsets, control cleanup, 
 
 ## Contributing
 
-Contribute a small, reproducible example with its expected behavior, Uyghur/English explanation, and copyable HTML/CSS. Keep user text local, preserve semantic labels, and add a regression test for the behavior being demonstrated. Prefer system fonts or separately licensed font assets.
+Contribute a small, reproducible example with its expected behavior, Uyghur/English explanation, and copyable HTML/CSS. Keep user text local, preserve semantic labels, and add a regression test for the behavior being demonstrated. Keep separately hosted font references distinguishable from the source-code license.
 
 ## References
 
@@ -91,4 +91,10 @@ These are guidance links. The fixtures and interface in this repository are orig
 
 ## License
 
-[MIT](LICENSE), © 2026 UyghurCommunity. No external dataset, font file, or runtime dependency is bundled.
+[MIT](LICENSE), © 2026 UyghurCommunity. No external dataset, font binary, or runtime dependency is bundled. Uyghur text uses the externally linked ALKATIP Basma font, which is separate from the code license.
+
+## Typography
+
+The interface and dynamic Uyghur examples use **ALKATIP Basma**, linked from OnlineWebFonts as WOFF2 with WOFF/TTF fallbacks and `font-display: swap`. No font binaries are redistributed. Tahoma/Arial provide fallback rendering when the external face is unavailable. Inspector text stays local; the browser makes only the normal external font-file request.
+
+The `.alkatip-basma` helper provides `direction: rtl`, `unicode-bidi: embed`, and `line-height: 2.2`. It is applied to the page rather than the example containers, so the interactive RTL/LTR switch, explicit input directions, and bidirectional isolation remain functional. Code uses a monospace face for supported characters and ALKATIP Basma as its Uyghur fallback.

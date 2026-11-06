@@ -39,7 +39,7 @@ export const fixtures = Object.freeze([
     id: 'code-block', category: 'layout', title: 'كود بىلەن ئۇيغۇرچە تېكىست', english: 'Code blocks with Uyghur strings',
     description: 'كود بۆلىكىنىڭ ئاساسىي يۆنىلىشىنى ئېنىق بەلگىلەڭ. ئۇيغۇرچە ھەرپلەر ئۆز شەكلىدە كۆرۈنىدۇ.',
     html: '<pre class="sample-code" dir="ltr"><code>const greeting = "سالام، دۇنيا!";\nconsole.log(greeting);</code></pre>',
-    css: '.sample-code { text-align: left; overflow-x: auto; padding: 1rem; }\n.sample-code code { font-family: ui-monospace, Tahoma, monospace; }',
+    css: '.sample-code { text-align: left; overflow-x: auto; padding: 1rem; }\n.sample-code code { font-family: ui-monospace, "ALKATIP Basma", Tahoma, monospace; }',
     note: 'A code editor may need additional bidi protections. This fixture demonstrates an explicitly LTR, read-only code block.',
   },
   {

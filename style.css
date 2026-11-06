@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "ALKATIP Basma";
+  src: url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.alkatip-basma {
+  font-family: "ALKATIP Basma", serif;
+  direction: rtl;
+  unicode-bidi: embed;
+  line-height: 2.2;
+}
+
 :root {
   color-scheme:dark;
   --bg:#101d27;
@@ -24,7 +41,7 @@ body {
   margin:0;
   background:var(--bg);
   color:var(--ink);
-  font:16px/1.9 Tahoma,Arial,sans-serif;
+  font:16px/1.9 "ALKATIP Basma",Tahoma,Arial,sans-serif;
 }
 
 h1,h2,h3,p,ol {
@@ -68,7 +85,7 @@ button,a {
 }
 
 code {
-  font-family:ui-monospace,Tahoma,monospace;
+  font-family:ui-monospace,"ALKATIP Basma",Tahoma,monospace;
   unicode-bidi:isolate;
 }
 
@@ -112,7 +129,7 @@ bdi {
 }
 
 .brand small {
-  font:8px/1.5 ui-monospace,monospace;
+  font:8px/1.5 ui-monospace,"ALKATIP Basma",monospace;
   letter-spacing:.13em;
   color:var(--muted);
   display:block;
@@ -198,7 +215,7 @@ h1>span {
 }
 
 .board-heading>bdi {
-  font:9px ui-monospace,monospace;
+  font:9px ui-monospace,"ALKATIP Basma",monospace;
   color:var(--mint);
 }
 
@@ -210,7 +227,7 @@ h1>span {
 }
 
 .board-sentence bdi {
-  font:18px ui-monospace,monospace;
+  font:18px ui-monospace,"ALKATIP Basma",monospace;
   color:var(--mint);
   padding:10px 5px;
   border-bottom:1px dashed var(--mint);
@@ -343,7 +360,7 @@ h2 {
 }
 
 .direction-control button {
-  font:10px ui-monospace,monospace;
+  font:10px ui-monospace,"ALKATIP Basma",monospace;
   padding:5px 9px;
 }
 
@@ -371,7 +388,7 @@ h2 {
 }
 
 .example-index {
-  font:9px ui-monospace,monospace;
+  font:9px ui-monospace,"ALKATIP Basma",monospace;
   color:var(--gold);
   display:block;
   margin-bottom:12px;
@@ -382,7 +399,7 @@ h2 {
 }
 
 .example-english {
-  font:10px/1.7 ui-monospace,monospace;
+  font:10px/1.7 ui-monospace,"ALKATIP Basma",monospace;
   color:var(--mint);
   display:block;
   margin-top:4px;
@@ -451,7 +468,7 @@ h2 {
   text-align:left;
   overflow-x:auto;
   padding:1rem;
-  font:12px/1.9 ui-monospace,Tahoma,monospace;
+  font:12px/1.9 ui-monospace,"ALKATIP Basma",Tahoma,monospace;
   background:#e4eae0;
   border-radius:5px;
   white-space:pre-wrap;
@@ -509,7 +526,7 @@ h2 {
 }
 
 .sample-table bdi {
-  font-family:ui-monospace,monospace;
+  font-family:ui-monospace,"ALKATIP Basma",monospace;
   font-size:10px;
 }
 
@@ -534,7 +551,7 @@ h2 {
 }
 
 .recipe-details summary>span:last-child {
-  font:16px ui-monospace,monospace;
+  font:16px ui-monospace,"ALKATIP Basma",monospace;
 }
 
 .recipe-details[open] summary>span:last-child {
@@ -543,7 +560,7 @@ h2 {
 
 .recipe-note {
   padding:0 23px 19px;
-  font:11px/1.8 Tahoma,Arial,sans-serif;
+  font:11px/1.8 "ALKATIP Basma",Tahoma,Arial,sans-serif;
   color:var(--muted);
   direction:ltr;
   text-align:left;
@@ -558,18 +575,18 @@ h2 {
   display:flex;
   justify-content:space-between;
   align-items:center;
-  font:10px ui-monospace,monospace;
+  font:10px ui-monospace,"ALKATIP Basma",monospace;
   direction:ltr;
   color:var(--gold);
   padding-block:10px;
 }
 
 .recipe-code button {
-  font:11px Tahoma,Arial,sans-serif;
+  font:11px "ALKATIP Basma",Tahoma,Arial,sans-serif;
 }
 
 .recipe-code pre {
-  font:11px/1.8 ui-monospace,Tahoma,monospace;
+  font:11px/1.8 ui-monospace,"ALKATIP Basma",Tahoma,monospace;
   text-align:left;
   direction:ltr;
   margin:0;
@@ -668,7 +685,7 @@ h2 {
 }
 
 .inspector-stats strong {
-  font:21px/1.5 ui-monospace,monospace;
+  font:21px/1.5 ui-monospace,"ALKATIP Basma",monospace;
   color:var(--mint);
   margin-inline-end:6px;
 }
@@ -726,7 +743,7 @@ h2 {
 }
 
 .inspector-results td:nth-child(1),.inspector-results td:nth-child(3) {
-  font:10px ui-monospace,monospace;
+  font:10px ui-monospace,"ALKATIP Basma",monospace;
   color:var(--mint);
 }
 
@@ -735,7 +752,7 @@ h2 {
 }
 
 .inspector-results td:nth-child(4) {
-  font:10px/1.7 ui-monospace,monospace;
+  font:10px/1.7 ui-monospace,"ALKATIP Basma",monospace;
   color:var(--muted);
 }
 
@@ -744,7 +761,7 @@ h2 {
 }
 
 .inspector-results tr.is-control td:nth-child(2) {
-  font:11px ui-monospace,monospace;
+  font:11px ui-monospace,"ALKATIP Basma",monospace;
   color:var(--gold);
 }
 
@@ -771,7 +788,7 @@ h2 {
 }
 
 .guidelines li>span {
-  font:10px ui-monospace,monospace;
+  font:10px ui-monospace,"ALKATIP Basma",monospace;
   color:var(--gold);
   padding-top:12px;
 }
@@ -807,7 +824,7 @@ h2 {
 }
 
 .footer>span {
-  font:10px ui-monospace,monospace;
+  font:10px ui-monospace,"ALKATIP Basma",monospace;
 }
 
 .toast {
