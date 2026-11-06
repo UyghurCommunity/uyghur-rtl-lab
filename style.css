@@ -196,68 +196,6 @@ h1>span {
   background:#a2ddd1;
 }
 
-.hero-board {
-  border:1px solid #4b676a;
-  border-radius:13px;
-  background:radial-gradient(ellipse at 65% 35%,#42685d25,transparent 70%),var(--panel);
-  padding:25px 27px;
-  transform:rotate(-2deg);
-  box-shadow:0 20px 40px #0002;
-}
-
-.board-heading {
-  display:flex;
-  justify-content:space-between;
-  gap:20px;
-  color:var(--muted);
-  font-size:11px;
-  padding-bottom:25px;
-}
-
-.board-heading>bdi {
-  font:9px ui-monospace,"ALKATIP Basma",monospace;
-  color:var(--mint);
-}
-
-.board-sentence {
-  padding-block:25px 30px;
-  font-size:24px;
-  text-align:center;
-  white-space:normal;
-}
-
-.board-sentence bdi {
-  font:18px ui-monospace,"ALKATIP Basma",monospace;
-  color:var(--mint);
-  padding:10px 5px;
-  border-bottom:1px dashed var(--mint);
-}
-
-.direction-line {
-  display:flex;
-  justify-content:space-between;
-  font-size:11px;
-  color:var(--gold);
-  padding-block:12px 28px;
-  direction:rtl;
-}
-
-.board-foot {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-  padding-top:17px;
-  border-top:1px solid var(--line);
-  font-size:10px;
-  color:var(--muted);
-}
-
-.board-foot code {
-  color:var(--mint);
-  font-size:10px;
-}
-
 .example-section {
   padding-block:35px 80px;
 }
@@ -878,19 +816,10 @@ h2 {
   .hero {
     gap:35px;
   }
-  .hero-board {
-    padding:22px;
-  }
-  .board-sentence {
-    font-size:21px;
-  }
-  .board-sentence bdi {
-    font-size:14px;
-  }
-  .board-foot {
-    flex-wrap:wrap;
-    gap:10px;
-  }
+
+
+
+
   .section-heading {
     align-items:start;
     gap:20px;
@@ -944,22 +873,10 @@ h2 {
   .intro {
     font-size:15px;
   }
-  .hero-board {
-    max-width:480px;
-    width:100%;
-    justify-self:center;
-    transform:rotate(-1deg);
-    padding:24px;
-  }
-  .board-sentence {
-    font-size:25px;
-  }
-  .board-sentence bdi {
-    font-size:17px;
-  }
-  .board-foot {
-    flex-wrap:nowrap;
-  }
+
+
+
+
   .section-heading {
     flex-direction:column;
     align-items:start;

@@ -98,3 +98,7 @@ These are guidance links. The fixtures and interface in this repository are orig
 The interface and dynamic Uyghur examples use **ALKATIP Basma**, linked from OnlineWebFonts as WOFF2 with WOFF/TTF fallbacks and `font-display: swap`. No font binaries are redistributed. Tahoma/Arial provide fallback rendering when the external face is unavailable. Inspector text stays local; the browser makes only the normal external font-file request.
 
 The `.alkatip-basma` helper provides `direction: rtl`, `unicode-bidi: embed`, and `line-height: 2.2`. It is applied to the page rather than the example containers, so the interactive RTL/LTR switch, explicit input directions, and bidirectional isolation remain functional. Code uses a monospace face for supported characters and ALKATIP Basma as its Uyghur fallback.
+
+## Demonstration motion
+
+The original directional loom in the hero sends Uyghur and Latin tokens through an isolation gate. Its direction switch uses the same RTL/LTR controls as the examples; it never rewrites editable sample text or inspector input. The visible motion button pauses/resumes the decorative streams and entrance effects. Animation starts paused until the controller is ready, respects reduced motion from first paint, and pauses when the card is offscreen or the document is hidden. The sculpture appears before the long introduction on mobile. Existing fixtures, copied recipes, downloads, and Unicode tools keep their behavior.
